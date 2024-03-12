@@ -26,7 +26,7 @@ function extractBirthday(cnp) {
   return `${day}/${month}/${year}`;
 }
 
-interpretButton.addEventListener("click", function () => {
+interpretButton.addEventListener("click", function () {
   const inputValue = input.value;
 
   const gender = extractGender(cnp);
